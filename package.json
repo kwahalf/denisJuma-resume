@@ -1,0 +1,46 @@
+{
+  "name": "denisJuma.github.io",
+  "version": "1.0.0",
+  "description": "[Open the website.](https://denisJuma.github.io)",
+  "main": "index.js",
+  "scripts": {
+    "start": "next",
+    "build": "next build; next export",
+    "deploy": "npm run build && cp static/.nojekyll out/ && cp static/favicon.ico out/ && gh-pages -d out --branch master --dotfiles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwahalf/denisJuma.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwahalf/denisJuma.github.io/issues"
+  },
+  "homepage": "https://github.com/kwahalf/denisJuma.github.io#readme",
+  "dependencies": {
+    "@mdx-js/mdx": "^0.15.7",
+    "@zeit/next-mdx": "^1.2.0",
+    "gh-pages": "2.0.0",
+    "next": "^6.1.1",
+    "react": "^16.6.0",
+    "react-animations": "^1.0.0",
+    "react-dom": "^16.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard-react": "^6.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^3.1.0",
+    "webpack": "^4.23.1"
+  },
+  "x0": {
+    "title": "Denis Juma",
+    "static": true,
+    "template": "source/template.js"
+  }
+}
