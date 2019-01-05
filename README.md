@@ -1,2 +1,0 @@
-# denisJuma-resume
-My resume
