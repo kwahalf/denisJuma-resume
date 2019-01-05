@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 export const MyHead = () => <Head>
-  <title>Herman Starikov</title>
+  <title>Denis Juma</title>
   <meta property='og:image' content='/static/images/full-shot.jpg' />
   <meta name='description' content='Denis Juma personal internet page' />
   <link rel='shortcut icon' href='/static/favicon.ico' />
