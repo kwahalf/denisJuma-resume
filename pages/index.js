@@ -20,7 +20,7 @@ export default () => (
             <span className='mr-3 d-inline-block animated rotateInUpLeft'>👋</span> I'm <strong>Denis Juma</strong>,<br /> A software wizard
           </h1>
           <p className='text-justify'>
-          Nice to meet you! I'm a Software Developer at <a href='https://andela.com/'>Andela</a> by day
+          Nice to meet you! I'm a Senior Software Engineer at <a href='https://andela.com/'>Andela</a> by day
           and a Loving father by night. I'm currently seconded to work for <a href='https://www.angaza.com/'>Angaza</a> as a Software Engineer. My core duty there is to integrate mobile payments, bulk SMS (SMSC or SMS providers) and maintain  those integrations
           </p>
           <p className='text-justify'>
